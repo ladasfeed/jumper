@@ -1,21 +1,22 @@
 html, body {
     margin: 0;
+    overflow: hidden;
 }
 
 .window {
     width: 100vw;
     height: 100vh;
-    background-color: blue;
+    
     padding-left: 30px;
 }
 
 .player {
     position: absolute;
     bottom: 200px;
-    width: 100px;
-    height: 100px;
-    background-image: url(/img/player.png);
-    background-size: contain;
+    width: 112px;
+    height: 153px;
+    background-image: url(/img/sprite-marsch.png);
+    background-size: unset;
     background-repeat: no-repeat;
     
 }
